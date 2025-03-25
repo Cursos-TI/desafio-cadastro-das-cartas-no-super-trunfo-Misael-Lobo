@@ -20,7 +20,7 @@ int main() {
     scanf(" %c", &estado1);
     printf("Digite o Código da Carta: ");
     scanf("%s", codcar1);
-    
+
     //usado fgest para considerar cidade com duas palavras
     printf("Digite o nome da cidade: ");
     getchar();
@@ -69,8 +69,8 @@ int main() {
     printf("Código: %s\n", codcar1);
     printf("Nome da Cidade: %s\n", nomcid1);
     printf("População: %d\n", qtdpop1);
-    printf("Área: %2.f km²\n", area1);
-    printf("PIB: %2.f bilhões de reais\n", pibcid1);
+    printf("Área: %.2f km²\n", area1);
+    printf("PIB: %.2f bilhões de reais\n", pibcid1);
     printf("Número de Pontos Turísticos: %d\n", numpontu1);
     printf("\n");
 
