@@ -32,7 +32,7 @@ int main() {
     getchar();
     fgets(nomcid1, sizeof(nomcid1), stdin);
     nomcid1[strcspn(nomcid1, "\n")] = '\0';
-    
+
     printf("Digite a quantidade da população: ");
     scanf("%d", &qtdpop1);
     printf("Digite a área: ");
@@ -90,8 +90,6 @@ int main() {
     printf("PIB: %.2f bilhões de reais\n", pibcid2);
     printf("Número de Pontos Turísticos: %d\n", numpontu2);
     printf("==========================================\n");
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
-
+    
     return 0;
 }
