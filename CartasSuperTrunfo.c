@@ -2,13 +2,13 @@
 
 int main() {
     // variaveis
-    char estado1, estado2 = '\0';
+    char estado1 = '\0', estado2 = '\0';
     char codcar1[3] = "", codcar2[3] = "";
-    char nomcid1[50], nomcid2[50] = "";
-    int  qtdpop1, qtdpop2 = 0;
-    float area1, area2 = 0;
-    float pibcid1, pibcid2 = 0;
-    int numpontu1, numpontu2 = 0;
+    char nomcid1[50] = "", nomcid2[50] = "";
+    int  qtdpop1 = 0, qtdpop2 = 0;
+    float area1 = 0, area2 = 0;
+    float pibcid1 = 0, pibcid2 = 0;
+    int numpontu1 = 0, numpontu2 = 0;
     
     // Cadastro das Cartas:
     printf("==========================================\n");
@@ -20,7 +20,7 @@ int main() {
     scanf(" %c", &estado1);
     printf("Digite o Código da Carta: ");
     scanf("%s", codcar1);
-
+    
     //usado fgest para considerar cidade com duas palavras
     printf("Digite o nome da cidade: ");
     getchar();
